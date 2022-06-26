@@ -1,0 +1,22 @@
+/*모든 파일에서 공유할 수 있는 CSS를 작성*/
+/*기본적인 내가 만드는 HTML 요소에 대한 default값을 지정해놓고 공유 CSS로 링크하면 유용함.*/
+
+body {
+  text-align: center;
+  background-color: rgb(230, 170, 101);
+}
+
+h1 {
+  font-family: 'Nanum Brush Script', sans-serif;
+}
+p {
+  font-size: large;
+}
+a {
+  color: rgb(167, 1, 78);
+  text-decoration: none;
+}
+/*마우스를 가져갔을 떄에 설정하는 것*/
+a:hover {
+  text-decoration: underline;
+}

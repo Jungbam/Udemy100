@@ -1,0 +1,64 @@
+header {
+  margin-bottom: 64px;
+}
+/* header p {
+  margin-bottom: 36px;
+} */
+#description {
+  margin: 12px;
+}
+h1 {
+  font-size: 60px;
+  color: rgb(71, 62, 62);
+  margin: 0;
+}
+
+a {
+  padding: 5px 48px;
+  background-color: rgb(167, 1, 78);
+  color: white;
+  border: 1px solid rgb(167, 1, 78);
+  font-size: 24px;
+  border-radius: 6px;
+  display: inline-block;
+  /*인라인 요소도 블록과 같이 수직여백을 지정할 수 있게 됨.*/
+  margin: 0;
+}
+a:hover {
+  background-color: rgb(180, 12, 90);
+  text-decoration: none;
+}
+ol {
+  list-style: none;
+  color: yellow;
+  width: 500px;
+  margin: 36px auto 0 auto;
+  padding: 0;
+}
+
+li {
+  padding: 16px;
+  margin: 32px;
+  background-color: rgb(233, 136, 124);
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  color: rgb(78, 13, 5);
+  font-family: 'Oswald', sans-serif;
+}
+/*결합자보다 클래스가 더 구체적이기 때문에 클래스가 적용됨.*/
+main p {
+  margin: 12px;
+  color: rgb(71, 29, 22);
+}
+.daily-goal {
+  margin: 12px;
+  color: rgb(78, 29, 22);
+}
+
+.highlight-goal {
+  background-color: rgb(224, 115, 101);
+  border-radius: 6px;
+}

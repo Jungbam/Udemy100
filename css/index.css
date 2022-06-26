@@ -1,0 +1,51 @@
+body {
+  margin: 36;
+}
+img {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #333;
+  /*테두리를 둥글게 / 크기 절반값으로 하면 동그랗게 됨.*/
+  border-radius: 150px;
+  /*이미지를 중앙에 배치하려면 바디에서 콘텐츠를 정렬해야 함. 빈요소는 콘텐츠가 없고 빈 요소는 바디에 속하는 콘텐츠이기 떄문.*/
+  /* margin: -75px; */
+  margin-top: -104px;
+  display: inline-block;
+}
+main {
+  width: 500px;
+  background-color: rgb(219, 108, 94);
+  padding: 24px;
+  margin: 100px auto;
+  margin-bottom: 36px;
+  border-radius: 8px;
+  border: 5px solid #444;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.3);
+}
+h1 {
+  font-size: 30px;
+  color: rgb(31, 25, 25);
+}
+span {
+  color: rgb(135, 40, 5);
+  font-size: 35px;
+  font-style: bold;
+}
+p {
+  font-family: '돋움';
+  text-align: center;
+  color: hsl(0, 7%, 21%);
+}
+a {
+  color: rgb(73, 29, 50);
+  text-decoration: none;
+  font-weight: bold;
+}
+/*Learn about~*/
+#day04_p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(75, 59, 59);
+  font-weight: bolder;
+  font-size: 30px;
+}
